@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+
+    <!--
+            responsibleId          = "171829"    // Test Test
+            responsibleId          = "1677387"   // Björn Ekryd
+            responsibleId          = "1602735"   // Per Malmgren
+            responsibleId          = "1667462"   // Thomas Rambrant
+            responsibleId          = "1519965"   // Erik Gullbring
+            responsibleId          = "1476247"   // Cecilia Akne
+    -->
+
+    <globalEntry>
+
+        <program
+            responsibleId         = "171829"
+            prepayment            = "N"
+            directLink            = "true"
+            active                = "true"
+            defaultLanguageId     = "sv"
+            currencyId            = "SEK"
+            invoiceTdOrgId        = "51"
+            encodeUrl             = "Y"
+            sendProgramEmail      = "N"
+            invoiceFormatCampaign = "N"
+        />
+
+        <affiliate
+            url               = "http://www.test.se"
+            countryId         = "SE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "sv"
+        />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+        <invoice
+            invoiceType = "NORMAL"
+        />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "OrderLine" included = "true">
+            <operations>
+                <operation name = "addCrmUpdateAgreementAgent"       parameter = "CrmAgreementUpdate"/>
+                <operation name = "generateTransactionsWithTracking" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <operation name = "processOrderLinesJobs" />
+                <operation name = "startEmulation"                   parameter = "emulation" />
+                <operation name = "validateResult"                   parameter = "validation"/>
+                <operation name = "validateAxContent"                parameter = "validation"/>
+            </operations>
+        </scenario>
+
+    </scenarios>
+
+    <parameters>
+        <parameter name = "CrmAgreementUpdate" type = "Producer"
+               intervalType = "UNIFORM"
+               interval     = "3" />
+
+        <parameter name = "emulation" type = "Execution"
+            executionTime = "10"
+            coolDownTime  = "600" />
+
+        <parameter name = "validation" type = "Validation"
+            depth = "DEEP"
+                />
+    </parameters>
+
+</normalInvoiceScenarios>

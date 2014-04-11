@@ -1,0 +1,124 @@
+<scenarioData>
+
+    <programs>
+
+        <program scenarioName = "Invoicing setup fee"
+            name                      = "setup fee"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "Scenario setup fee"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Invoicing different type of events"
+            name                      = "type of events"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "scenario type of events"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "CAMPAIGN_INVOICING"
+        />
+
+    </programs>
+
+    <affiliates>
+
+        <affiliate scenarioName = "Invoicing setup fee"
+            organizationName  = "Billing integration publisher"
+            url               = "http://www.test.se"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+        <affiliate scenarioName = "Invoicing different type of events"
+            organizationName  = "Billing integration publisher"
+            url               = "http://www.test.se"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+    </affiliates>
+
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Invoicing setup fee"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+        <graphicalElement scenarioName = "Invoicing different type of events"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+    </graphicalElements>
+
+    <segmentTariffs>
+
+        <segmentTariff scenarioName = "Invoicing setup fee"
+            eventTypeId = "EVENT_TYPE_TD_COMMISSION"
+            fee         = "-15"
+        />
+
+        <segmentTariffs scenarioName = "Invoicing different type of events">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "3000"
+                fee         = "10000"
+                numberOf    = "20"
+            />
+
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "5000"
+                fee         = "25000"
+                numberOf    = "10"
+                orderValue  = "20000"
+            />
+
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "1800"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "100.33"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "2700"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_TD_COMMISSION"
+                fee         = "-15"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "2300"
+            />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+</scenarioData>

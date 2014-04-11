@@ -1,0 +1,1432 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <program scenarioName = "UAT-206945"
+            id             = "206945" />
+
+        <program scenarioName = "UAT-60931"
+            id             = "60931" />
+
+        <program scenarioName = "UAT-210254"
+            id             = "210254" />
+
+        <program scenarioName = "UAT-206134"
+            id             = "206134" />
+
+        <program scenarioName = "UAT-232849"
+            id             = "232849" />
+
+        <program scenarioName = "UAT-206951"
+            id             = "206951" />
+
+        <program scenarioName = "UAT-204399"
+            id             = "204399" />
+
+        <program scenarioName = "UAT-122083"
+            id             = "122083" />
+
+        <program scenarioName = "UAT-23708"
+            id             = "23708" />
+
+        <program scenarioName = "UAT-21701"
+            id             = "21701" />
+
+        <program scenarioName = "UAT-19300"
+            id             = "19300" />
+
+        <program scenarioName = "UAT-498"
+            id             = "498" />
+
+        <program scenarioName = "UAT-898"
+            id             = "898" />
+
+        <program scenarioName = "UAT-68951"
+            id             = "68951" />
+
+        <program scenarioName = "UAT-73332"
+            id             = "73332" />
+
+        <program scenarioName = "UAT-195169"
+            id             = "195169" />
+
+        <program scenarioName = "UAT-211434"
+            id             = "211434" />
+
+        <program scenarioName = "UAT-217943"
+            id             = "217943" />
+
+        <program scenarioName = "UAT-702"
+            id             = "702" />
+
+        <program scenarioName = "UAT-123101"
+            id             = "123101" />
+
+        <program scenarioName = "UAT-136764"
+            id             = "136764" />
+
+        <program scenarioName = "UAT-149963"
+            id             = "149963" />
+
+        <program scenarioName = "UAT-151084"
+            id             = "151084" />
+
+    </programs>
+
+<!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliates scenarioName = "UAT-206945">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-60931">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-210254">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-206134">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-232849">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-206951">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-204399">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-122083">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-23708">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-21701">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-19300">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-498">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-898">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-68951">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-73332">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-195169">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-211434">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-217943">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-702">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-123101">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-136764">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-149963">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-151084">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+    </affiliates>
+
+<!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "UAT-206945"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-60931"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-210254"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-206134"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-232849"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-206951"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-204399"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-122083"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-23708"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-21701"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-19300"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-498"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-898"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-68951"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-73332"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-195169"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-211434"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-217943"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-702"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-123101"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-136764"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-149963"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-151084"
+            title = "Simple ad" />
+
+    </graphicalElements>
+
+<!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-206945">
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_TD_COMMISSION"
+                monthOffset = "-1"
+                fee         = "19" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_SETUP_FEE"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-60931">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-210254">
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_TD_COMMISSION"
+                monthOffset = "-1"
+                fee         = "19" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_SETUP_FEE"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-206134">
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_TD_COMMISSION"
+                monthOffset = "-1"
+                fee         = "19" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_SETUP_FEE"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-232849">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-206951">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-204399">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                monthOffset = "-1"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-122083">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-23708">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-21701">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-19300">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-498">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-898">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-68951">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-73332">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-195169">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-211434">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-217943">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+         </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-702">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                monthOffset = "-1"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-123101">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+         </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-136764">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                monthOffset = "-1"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-149963">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "UAT-151084">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "0"
+                fee         = "0"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                monthOffset = "-1"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                monthOffset = "-5"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                monthOffset = "-1"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+<!-- ********************************************************************************************************** -->
+    <customEvents>
+
+        <customEvents scenarioName = "UAT-60931">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-232849">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-206951">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-204399">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-122083">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-23708">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-21701">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-19300">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-498">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-898">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-68951">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-73332">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-195169">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-211434">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-217943">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-702">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-123101">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-136764">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-149963">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "UAT-151084">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData>

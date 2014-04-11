@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+
+    <!--
+            responsibleId          = "171829"    // Test Test
+            responsibleId          = "1677387"   // Björn Ekryd
+            responsibleId          = "1602735"   // Per Malmgren
+            responsibleId          = "1667462"   // Thomas Rambrant
+            responsibleId          = "1519965"   // Erik Gullbring
+            responsibleId          = "1476247"   // Cecilia Akne
+    -->
+
+    <globalEntry>
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Update" included = "true">
+            <operations>
+                <operation name = "addCrmUpdateInvoiceRuleAgent"  parameter = "CrmInvoiceRuleUpdateNone"/>
+                <operation name = "addCrmServiceFailAgent"        parameter = "CrmServiceFailNone"/>
+                <operation name = "addAxServiceFailAgent"         parameter = "AxServiceFailNone"/>
+                <operation name = "startEmulation"                parameter = "emulation" />
+                <operation name = "validateResult"                parameter = "validation"/>
+            </operations>
+        </scenario>
+
+    </scenarios>
+
+    <parameters>
+
+        <parameter name = "CrmInvoiceRuleUpdateNone" type = "Producer"
+            intervalType      = "UNIFORM"
+            interval          = "1"
+            timeLimit         = "1" />
+
+        <parameter name = "CrmServiceFailNone" type = "Consumer" />
+
+        <parameter name = "AxServiceFailNone" type = "Consumer" />
+
+        <parameter name = "emulation" type = "Execution"
+            executionTime = "2"
+            coolDownTime  = "120" />
+
+        <parameter name = "validation" type = "Validation"
+            depth = "DEEP" />
+
+    </parameters>
+
+</normalInvoiceScenarios>

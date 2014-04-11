@@ -1,0 +1,51 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <!-- Advertiser = 1812037 -->
+
+        <!--
+        Program 233173 (SE prepayment min transaction fee)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = Y
+        Allow negative balance = N
+        invoicing day = *** patch this ***
+        -->
+        <program scenarioName = "PrepaymentWithMinimumTrans"
+            id             = "233173"
+            accountBalance = "2000000" />
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliate scenarioName = "PrepaymentWithMinimumTrans"
+            organizationName  = "Prepayment Bill-Publisher (one)" />
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "PrepaymentWithMinimumTrans"
+            title = "Prepayment ad" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariff scenarioName = "PrepaymentWithMinimumTrans"
+            eventTypeId = "SALE_EVENT_ID"
+            monthOffset = "-5"
+            tdFee       = "20"
+            fee         = "100"
+            numberOf    = "1"
+            orderValue  = "200" />
+
+    </segmentTariffs>
+
+</scenarioData>

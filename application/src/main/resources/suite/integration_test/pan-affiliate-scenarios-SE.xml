@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+
+    <!--
+            responsibleId          = "171829"    // Test Test
+            responsibleId          = "1677387"   // Björn Ekryd
+            responsibleId          = "1602735"   // Per Malmgren
+            responsibleId          = "1667462"   // Thomas Rambrant
+            responsibleId          = "1519965"   // Erik Gullbring
+            responsibleId          = "1476247"   // Cecilia Akne
+    -->
+
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <program
+            responsibleId     = "171829"
+            defaultLanguageId = "sv"
+            currencyId        = "SEK"
+            programCountryId  = "SE"
+            invoiceTdOrgId    = "51"
+        />
+
+        <affiliate
+            url        = "http://www.test.se"
+            countryId  = "SE"
+            languageId = "sv"
+        />
+
+     </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Invoicing different type of events" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "generateInvoice" />
+                <operation name = "verifyInvoiceDoNotExist" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <operation name = "processOrderLinesJobs" />
+                <!--<operation name = "emulateMule" />-->
+                <operation name = "verifyOrderLinesExists" />
+            </operations>
+        </scenario>
+
+    </scenarios>
+
+</normalInvoiceScenarios>

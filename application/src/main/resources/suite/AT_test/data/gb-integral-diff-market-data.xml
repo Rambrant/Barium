@@ -1,0 +1,75 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <program scenarioName = "AT-68163"
+            id = "68163" />
+
+        <program scenarioName = "AT-101057"
+            id = "101057" />
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliate scenarioName = "AT-68163"
+            organizationName  = "Bill-Publisher (one)"
+            url               = "http://www.test.de"
+            countryId         = "DE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "de" />
+
+        <affiliate scenarioName = "AT-101057"
+            organizationName  = "Bill-Publisher (two)"
+            url               = "http://www.test.uk"
+            countryId         = "GB"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "en" />
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "AT-68163"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "AT-101057"
+            title = "Simple ad" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "AT-68163">
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_COMPENSATION_AMOUNT"
+                monthOffset = "-1"
+                fee         = "19" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "AT-101057">
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_COMPENSATION_AMOUNT"
+                monthOffset = "-1"
+                fee         = "19" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+</scenarioData>

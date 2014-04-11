@@ -1,0 +1,31 @@
+<scenarioData>
+
+    <orderLines>
+        <!--    String    clientId              -->
+        <!--    Guid      invoiceMessageRuleId  -->
+        <!--    Guid      invoicingRuleId       -->
+        <!--    Market    marketId              -->
+        <!--    String    messageText           -->
+        <!--    Timestamp validFrom             -->
+        <!--    Timestamp validTo               -->
+
+        <orderLine scenarioName = "Some"
+            numberOfOrderLines = "10"
+        />
+
+        <orderLine scenarioName = "Syntax"
+            numberOfOrderLines = "10"
+        />
+
+        <orderLine scenarioName = "Illegal"
+            numberOfOrderLines = "10"
+        />
+
+        <orderLine scenarioName = "Full"
+            numberOfOrderLines = "6000"
+        />
+
+    </orderLines>
+
+
+</scenarioData>

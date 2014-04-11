@@ -1,0 +1,573 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <program scenarioName = "TD_AFFILIATE"
+            name                      = "Bill-TD_AFFILIATE Denmark"
+            programType               = "TD_AFFILIATE"
+            invoiceTdOrgId            = "135827"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "da"
+            currencyId                = "DKK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "DK"
+            currentPrepaymentStatusId = "NORMAL" />
+
+        <program scenarioName = "TD_INTERNAL"
+            name                      = "Bill-TD_INTERNAL Denmark"
+            programType               = "TD_INTERNAL"
+            invoiceTdOrgId            = "135827"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "da"
+            currencyId                = "DKK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "DK"
+            currentPrepaymentStatusId = "NORMAL" />
+
+        <program scenarioName = "CAMPAIGN_OLD"
+            name                      = "Bill-CAMPAIGN_OLD Denmark"
+            programType               = "CAMPAIGN_OLD"
+            invoiceTdOrgId            = "135827"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "da"
+            currencyId                = "DKK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "DK"
+            currentPrepaymentStatusId = "NORMAL" />
+
+        <program scenarioName = "TD_INTEGRAL"
+            name                      = "Bill-TD_INTEGRAL Denmark"
+            programType               = "TD_INTEGRAL"
+            invoiceTdOrgId            = "135827"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "da"
+            currencyId                = "DKK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "DK"
+            currentPrepaymentStatusId = "NORMAL" />
+
+        <program scenarioName = "TD_TALK"
+            name                      = "Bill-TD_TALK Denmark"
+            programType               = "TD_TALK"
+            invoiceTdOrgId            = "135827"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "da"
+            currencyId                = "DKK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "DK"
+            currentPrepaymentStatusId = "NORMAL" />
+
+        <program scenarioName = "CAMPAIGN_NEW"
+            name                      = "Bill-CAMPAIGN_NEW Denmark"
+            programType               = "CAMPAIGN_NEW"
+            invoiceTdOrgId            = "135827"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "da"
+            currencyId                = "DKK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "DK"
+            currentPrepaymentStatusId = "NORMAL" />
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliates scenarioName = "TD_AFFILIATE">
+            <affiliate
+                organizationName  = "Bill-Publisher (one)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da" />
+            <affiliate
+                organizationName  = "Bill-Publisher (two)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da"
+            />
+        </affiliates>
+
+        <affiliates scenarioName = "TD_INTERNAL">
+            <affiliate
+                organizationName  = "Bill-Publisher (one)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da" />
+            <affiliate
+                organizationName  = "Bill-Publisher (two)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da"
+            />
+        </affiliates>
+
+        <affiliates scenarioName = "CAMPAIGN_OLD">
+            <affiliate
+                organizationName  = "Bill-Publisher (one)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da" />
+            <affiliate
+                organizationName  = "Bill-Publisher (two)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da"
+            />
+        </affiliates>
+
+        <affiliates scenarioName = "TD_INTEGRAL">
+            <affiliate
+                organizationName  = "Bill-Publisher (one)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da" />
+            <affiliate
+                organizationName  = "Bill-Publisher (two)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da"
+            />
+        </affiliates>
+
+        <affiliates scenarioName = "TD_TALK">
+            <affiliate
+                organizationName  = "Bill-Publisher (one)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da" />
+            <affiliate
+                organizationName  = "Bill-Publisher (two)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da"
+            />
+        </affiliates>
+
+        <affiliates scenarioName = "CAMPAIGN_NEW">
+            <affiliate
+                organizationName  = "Bill-Publisher (one)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da" />
+            <affiliate
+                organizationName  = "Bill-Publisher (two)"
+                url               = "http://www.test.se"
+                countryId         = "DK"
+                affiliateStatusId = "ACTIVE"
+                siteName          = "Billing integration site"
+                siteDescription   = "Billing integration description"
+                languageId        = "da"
+            />
+        </affiliates>
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "TD_AFFILIATE"
+            title                  = "Simple ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+        <graphicalElement scenarioName = "TD_INTERNAL"
+            title                  = "Simple ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+        <graphicalElement scenarioName = "CAMPAIGN_OLD"
+            title                  = "Simple ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+        <graphicalElement scenarioName = "TD_INTEGRAL"
+            title                  = "Simple ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+        <graphicalElement scenarioName = "TD_TALK"
+            title                  = "Simple ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+        <graphicalElement scenarioName = "CAMPAIGN_NEW"
+            title                  = "Simple ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "TD_AFFILIATE">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "12"
+                fee         = "150"
+                type        = "DEBIT"
+                numberOf    = "15" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "TD_INTERNAL">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "CAMPAIGN_OLD">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "TD_INTEGRAL">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "TD_TALK">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "CAMPAIGN_NEW">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_CAMPAIGN_ADVANCE_PAYMENT"
+                fee         = "27" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+    <customEvents>
+
+        <customEvents scenarioName = "TD_AFFILIATE">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "TD_INTERNAL">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "TD_CAMPAIGN_OLD">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "TD_INTEGRAL">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "TD_TALK">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "CAMPAIGN_NEW">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData></scenarioData>

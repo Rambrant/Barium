@@ -1,0 +1,27 @@
+<scenarioData>
+
+<messageForMarkets>
+    <!--    String    clientId              -->
+    <!--    Guid      invoiceMessageRuleId  -->
+    <!--    Guid      invoicingRuleId       -->
+    <!--    Market    marketId              -->
+    <!--    String    messageText           -->
+    <!--    Timestamp validFrom             -->
+    <!--    Timestamp validTo               -->
+
+    <messageForMarket scenarioName = "TextMessage"
+        messageText = "Max 5678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+    />
+
+    <messageForMarket scenarioName = "TextMessageForeign"
+        messageText = "Ryska Фёдор Достое́вский"
+    />
+
+    <messageForMarket scenarioName = "Dates"
+        validFrom = "1901-01-01T00:00:00.000+01:00"
+        validTo   = "2154-12-31T00:00:00.000+01:00"
+    />
+
+</messageForMarkets>
+
+</scenarioData>

@@ -1,0 +1,240 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <!-- Advertiser = 1812175 -->
+
+        <!--
+        Program 233153 (Hoppala DE)
+        Country = DE
+        Program type = Affiliate
+        Prepayment = N
+        -->
+        <program scenarioName = "Simple"
+            id = "233153" />
+
+        <!--
+        Program 233128 (Gurka Affiliate type Prepayment)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = Y
+        Allow negative balance = N
+        -->
+        <!--<program scenarioName = "Prepayment"-->
+            <!--id             = "233128"-->
+            <!--accountBalance = "2000000" />-->
+
+        <!--
+        Program 233130 (Gurka Affiliate neg prepayment)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = Y
+        Allow negative balance = Y
+        -->
+        <!--<program scenarioName = "PrepaymentNegBalance"-->
+            <!--id             = "233130"-->
+            <!--accountBalance = "2000" />-->
+
+
+        <!--<program scenarioName = "NoInvoice"-->
+            <!--id = "233112" />-->
+
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliate scenarioName = "Simple"
+            organizationName  = "Bill-Publisher (one)" />
+
+        <affiliate scenarioName = "Prepayment"
+            organizationName  = "Prepayment Bill-Publisher (one)" />
+
+        <affiliate scenarioName = "PrepaymentNegBalance"
+            organizationName  = "PrepaymentNegBalance Bill-Publisher (one)" />
+
+        <affiliate scenarioName = "NoInvoice"
+            organizationName  = "Bill-Publisher-NoInvoice" />
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Simple"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "Prepayment"
+            title = "Prepayment ad" />
+
+        <graphicalElement scenarioName = "PrepaymentNegBalance"
+            title = "PrepaymentNegBalance ad" />
+
+          <graphicalElement scenarioName = "NoInvoice"
+            title = "NoInvoice ad" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariff scenarioName = "NoInvoice"
+            eventTypeId = "SALE_EVENT_ID"
+            tdFee       = "20"
+            fee         = "100"
+            numberOf    = "20"
+            orderValue  = "200" />
+
+        <segmentTariffs scenarioName = "Simple">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "Prepayment">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "PrepaymentNegBalance">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+    <customEvents>
+
+        <customEvents scenarioName = "Simple">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "Prepayment">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "PrepaymentNegBalance">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData>

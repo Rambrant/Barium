@@ -1,0 +1,249 @@
+<scenarioData>
+
+    <programs>
+
+        <program scenarioName = "Invoicing impression"
+            name                      = "Imp"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "advertiser imp"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Invoicing sale"
+            name                      = "Sale"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "advertiser sale"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Invoicing file hosting"
+            name                      = "File hosting"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "advertiser file hosting"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Invoicing manual transaction"
+            name                      = "Manual transaction"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "advertiser manual transaction"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Invoicing digital wallet"
+            name                      = "Digital wallet"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "advertiser digital wallet"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Invoicing different type of events"
+            name                      = "different events"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "Y"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "Y"
+            programType               = "CAMPAIGN_NEW"
+            organizationName          = "advertiser different events"
+            campaignInvoicing         = "Y"
+            accountBalance            = "2000"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+    </programs>
+
+    <affiliates>
+
+        <affiliate scenarioName = "Invoicing impression"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+                />
+
+        <affiliate scenarioName = "Invoicing sale"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+        <affiliate scenarioName = "Invoicing file hosting"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+        <affiliate scenarioName = "Invoicing manual transaction"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+        <affiliate scenarioName = "Invoicing digital wallet"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+        <affiliate scenarioName = "Invoicing different type of events"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+    </affiliates>
+
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Invoicing impression"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+        <graphicalElement scenarioName = "Invoicing sale"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+        <graphicalElement scenarioName = "Invoicing file hosting"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+        <graphicalElement scenarioName = "Invoicing different type of events"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+    </graphicalElements>
+
+    <segmentTariffs>
+
+        <segmentTariff scenarioName = "Invoicing impression"
+            eventTypeId = "IMPRESSION_EVENT_ID"
+            tdFee       = "25"
+            fee         = "125"
+            numberOf    = "6"
+        />
+
+        <segmentTariff scenarioName = "Invoicing sale"
+            eventTypeId = "SALE_EVENT_ID"
+            tdFee       = "50"
+            fee         = "500"
+            numberOf    = "12"
+            orderValue  = "650"
+        />
+
+        <segmentTariff scenarioName = "Invoicing file hosting"
+            eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+            tdFee       = "19"
+            fee         = "0.0"
+            numberOf    = "3"
+            dataVolume  = "10.33"
+        />
+
+        <segmentTariff scenarioName = "Invoicing manual transaction"
+            eventTypeId = "EVENT_TYPE_CAMPAIGN_ADVANCE_PAYMENT"
+            fee         = "27"
+        />
+
+        <segmentTariff scenarioName = "Invoicing digital wallet"
+            eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+            fee         = "26"
+        />
+
+        <segmentTariffs scenarioName = "Invoicing different type of events">
+
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "25"
+                fee         = "125"
+                numberOf    = "6"
+            />
+
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "50"
+                fee         = "500"
+                numberOf    = "12"
+                orderValue  = "650"
+            />
+
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "17"
+                fee         = "0.0"
+                numberOf    = "9"
+                dataVolume  = "10.33"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_CAMPAIGN_ADVANCE_PAYMENT"
+                fee         = "27"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "26"
+            />
+
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+</scenarioData>

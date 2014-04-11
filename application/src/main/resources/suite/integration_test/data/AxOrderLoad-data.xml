@@ -1,0 +1,107 @@
+<scenarioData>
+
+    <invoicingRules>
+        <!--    String clientId                   -->
+        <!--    String clientReference            -->
+        <!--    Currency currencyCode             -->
+        <!--    String description                -->
+        <!--    boolean deviatingExchangeRate     -->
+        <!--    boolean displayTDcommission       -->
+        <!--    DistributionMode distributionMode -->
+        <!--    Guid invoicingRuleId              -->
+        <!--    String invoicingRuleName          -->
+        <!--    String issuerReference            -->
+        <!--    marketId                          -->
+        <!--    PaymentMethod paymentMethod       -->
+        <!--    PostingProfile postingProfile     -->
+        <!--    RevenueType revenueType           -->
+        <!--    TermsOfPayment termsOfPayment     -->
+
+        <invoicingRule scenarioName = "Create"
+            currencyCode     = "SEK"
+            paymentMethod    = "1"
+            distributionMode = "3"
+        />
+
+    </invoicingRules>
+
+    <invoiceRecipients>
+
+        <!--    String attentionRow1      -->
+        <!--    String attentionRow2      -->
+        <!--    boolean defaultRecipient  -->
+        <!--    String emailAddress       -->
+        <!--    Guid invoiceRecipientId   -->
+        <!--    Guid invoicingRuleId      -->
+        <!--    Address registeredAddress -->
+
+        <invoiceRecipient scenarioName = "Create"
+            emailAddress = "perlevin712@gmail.com"
+        />
+
+    </invoiceRecipients>
+
+    <agreements>
+
+        <!--    String clientId         -->
+        <!--    Currency currencyCode   -->
+        <!--    String description      -->
+        <!--    String documentLink     -->
+        <!--    Guid invoicingRuleId    -->
+        <!--    Market marketId         -->
+        <!--    ProductType productType -->
+        <!--    sourceSystemAgreementId -->
+        <!--    Timestamp validFrom     -->
+        <!--    Timestamp validTo       -->
+
+        <agreement scenarioName = "Create"
+            productType  = "1"
+            currencyCode = "SEK"
+            documentLink = ""
+        />
+
+    </agreements>
+
+    <orderLines>
+        <!--    String systemAgreementId    -->
+        <!--    String orderLineId          -->
+        <!--    boolean invoiceable         -->
+        <!--    String salesPart            -->
+        <!--    String description          -->
+        <!--    int quantity                -->
+        <!--    Money total                 -->
+        <!--    Money cost                  -->
+        <!--    Timestamp dateOfPrepayment  -->
+        <!--    DebitOrCredit debitOrCredit -->
+        <!--    String creditedInvoiceID    -->
+        <!--    String splitter             -->
+        <!--    int year                    -->
+        <!--    int month                   -->
+        <!--    String period               -->
+
+        <!--<orderLine scenarioName = "Create"-->
+            <!--numberOfOrderLines = "1"-->
+            <!--dateOfPrepayment = ""-->
+            <!--total = "56.78"-->
+            <!--cost  = "12.34"-->
+        <!--/>-->
+
+        <orderLine scenarioName = "Create"
+            numberOfOrderLines = "15"
+            creditedInvoiceID = ""
+            total = "56.78"
+            cost  = "12.34"
+        />
+
+        <!--<orderLine scenarioName = "Create"-->
+            <!--numberOfOrderLines = "1"-->
+            <!--dateOfPrepayment = "2012-10-26T21:32:52"-->
+            <!--creditedInvoiceID = ""-->
+            <!--total = "56.78"-->
+            <!--cost  = "12.34"-->
+        <!--/>-->
+
+    </orderLines>
+
+
+</scenarioData>

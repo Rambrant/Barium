@@ -1,0 +1,568 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <!--
+        Program 233131 (Tomatodlaren)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = N
+        -->
+        <program scenarioName = "Simple"
+            id = "233131" />
+
+        <!--
+        Program 233131 (YourLenses)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = N
+        -->
+        <program scenarioName = "CollectiveInvoice_1"
+            id = "16753" />
+
+        <!--
+        Program 233131 (Lensway)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = N
+        -->
+        <program scenarioName = "CollectiveInvoice_2"
+            id = "16732" />
+
+        <program scenarioName = "Prepayment-211938"
+            id             = "211938" />
+
+        <program scenarioName = "TwoAff-151365"
+            id             = "151365"
+            accountBalance = "2000000" />
+
+        <!--
+        Program 233157 (SE hoppala prepayment 1)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = Y
+        Allow negative balance = N
+        -->
+        <program scenarioName = "Prepayment"
+            id             = "233157"
+            accountBalance = "2000000" />
+
+        <!--
+        Program 233130 (Gurka Affiliate neg prepayment)
+        Country = SE
+        Program type = Affiliate
+        Prepayment = Y
+        Allow negative balance = Y
+        -->
+        <!--<program scenarioName = "PrepaymentNegBalance"-->
+            <!--id             = "233130"-->
+            <!--accountBalance = "2000" />-->
+
+
+        <!--<program scenarioName = "NoInvoice"-->
+            <!--id = "233112" />-->
+
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliates scenarioName = "Simple">
+            <affiliate
+            organizationName  = "Bill-Publisher (one)" />
+            <affiliate
+            organizationName  = "Bill-Publisher (two)" />
+        </affiliates>
+
+        <affiliate scenarioName = "CollectiveInvoice_1"
+            organizationName  = "Bill-Publisher (one)"
+            url               = "http://www.test.se"
+            countryId         = "DE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "de" />/>
+
+        <affiliate scenarioName = "CollectiveInvoice_2"
+            organizationName  = "Bill-Publisher (one)" />
+
+        <affiliate scenarioName = "Prepayment"
+            organizationName  = "Prepayment Bill-Publisher (one)" />
+
+        <affiliates scenarioName = "TwoAff-151365">
+            <affiliate
+            organizationName  = "Bill-Publisher (one)" />
+            <affiliate
+            organizationName  = "Bill-Publisher (two)" />
+        </affiliates>
+
+        <affiliate scenarioName = "Prepayment-211938"
+            organizationName  = "Prepayment Bill-Publisher (one)" />
+
+        <affiliate scenarioName = "PrepaymentNegBalance"
+            organizationName  = "PrepaymentNegBalance Bill-Publisher (one)" />
+
+        <affiliate scenarioName = "NoInvoice"
+            organizationName  = "Bill-Publisher-NoInvoice" />
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Simple"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "CollectiveInvoice_1"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "CollectiveInvoice_2"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "Prepayment-211938"
+            title = "Prepayment ad" />
+
+        <graphicalElement scenarioName = "Prepayment"
+            title = "Prepayment ad" />
+
+        <graphicalElement scenarioName = "TwoAff-151365"
+            title = "Two Aff ad" />
+
+        <graphicalElement scenarioName = "PrepaymentNegBalance"
+            title = "PrepaymentNegBalance ad" />
+
+          <graphicalElement scenarioName = "NoInvoice"
+            title = "NoInvoice ad" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariff scenarioName = "NoInvoice"
+            eventTypeId = "SALE_EVENT_ID"
+            tdFee       = "20"
+            fee         = "100"
+            numberOf    = "20"
+            orderValue  = "200" />
+
+        <segmentTariffs scenarioName = "Simple">
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "5"-->
+                <!--numberOf    = "5"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "5"-->
+                <!--numberOf    = "6"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-1"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "5"-->
+                <!--numberOf    = "7"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "5"-->
+                <!--numberOf    = "8"-->
+                <!--orderValue  = "200" />-->
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-2"
+                type        = "CREDIT"
+                tdFee       = "10"
+                fee         = "5"
+                numberOf    = "9"
+                orderValue  = "200" />
+            <!--<segmentTariff-->
+                <!--eventTypeId = "CLICK_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "5" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "CLICK_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "6" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "CLICK_EVENT_ID"-->
+                <!--monthOffset = "-1"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "7" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "CLICK_EVENT_ID"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "8" />-->
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                monthOffset = "-2"
+                type        = "CREDIT"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "7" />
+            <!--<segmentTariff-->
+                <!--eventTypeId = "IMPRESSION_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "5" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "IMPRESSION_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "6" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "IMPRESSION_EVENT_ID"-->
+                <!--monthOffset = "-1"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "7" />-->
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                monthOffset = "-2"
+                type        = "CREDIT"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "8" />
+            <!--<segmentTariff-->
+                <!--eventTypeId = "UNIQUE_VISITORS_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "5" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "UNIQUE_VISITORS_EVENT_ID"-->
+                <!--monthOffset = "-2"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "6" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "UNIQUE_VISITORS_EVENT_ID"-->
+                <!--monthOffset = "-1"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "7" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "UNIQUE_VISITORS_EVENT_ID"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "8" />-->
+            <segmentTariff
+                eventTypeId = "UNIQUE_VISITORS_EVENT_ID"
+                monthOffset = "-2"
+                type        = "CREDIT"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "8" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "CollectiveInvoice_1">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "CollectiveInvoice_2">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "Prepayment-211938">
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--tdFee       = "20"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "0"
+                fee         = "2100"
+                numberOf    = "1" />
+            <!--<segmentTariff-->
+                <!--eventRef    = "custom sale"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "260" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "EVENT_TYPE_NETWORK_FEE"-->
+                <!--fee         = "22" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"-->
+                <!--tdFee       = "18"-->
+                <!--fee         = "0.0"-->
+                <!--numberOf    = "20"-->
+                <!--dataVolume  = "10.50" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"-->
+                <!--fee         = "20" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"-->
+                <!--fee         = "2000000" />-->
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "TwoAff-151365">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "-20"
+                fee         = "-100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "-30"
+                fee         = "-300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "-20" />
+            <!--<segmentTariff-->
+                <!--eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"-->
+                <!--fee         = "2000000" />-->
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "Prepayment">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "PrepaymentNegBalance">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20"
+                orderValue  = "260" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "400"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "22" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "20"
+                dataVolume  = "10.50" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_MERCHANT_ACCOUNT_BALANCE"
+                fee         = "2000000" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+    <customEvents>
+
+        <customEvents scenarioName = "Simple">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "CollectiveInvoice_1">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "CollectiveInvoice_2">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "Prepayment-211938">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "TwoAff-151365">
+             <customEvent
+                  eventTypeId = "SALE_EVENT_ID"
+                  eventName   = "custom sale"/>
+             <customEvent
+                  eventTypeId = "LEAD_EVENT_ID"
+                  eventName   = "custom lead"/>
+         </customEvents>
+
+        <customEvents scenarioName = "Prepayment">
+             <customEvent
+                  eventTypeId = "SALE_EVENT_ID"
+                  eventName   = "custom sale"/>
+             <customEvent
+                  eventTypeId = "LEAD_EVENT_ID"
+                  eventName   = "custom lead"/>
+         </customEvents>
+
+         <customEvents scenarioName = "PrepaymentNegBalance">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData>

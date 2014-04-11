@@ -1,0 +1,520 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <program scenarioName = "UAT-21"
+            id             = "21" />
+
+        <program scenarioName = "UAT-20134"
+            id             = "20134" />
+
+        <program scenarioName = "UAT-123045"
+            id             = "123045" />
+
+        <program scenarioName = "UAT-123181"
+            id             = "123181" />
+
+        <program scenarioName = "UAT-147486"
+            id             = "147486" />
+
+        <program scenarioName = "UAT-151948"
+            id             = "151948" />
+
+        <program scenarioName = "UAT-155284"
+            id             = "155284" />
+
+        <program scenarioName = "UAT-160925"
+            id             = "160925" />
+
+        <program scenarioName = "UAT-192553"
+            id             = "192553" />
+
+        <program scenarioName = "UAT-197061"
+            id             = "197061" />
+
+        <program scenarioName = "UAT-212286"
+            id             = "212286" />
+
+    </programs>
+
+<!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliates scenarioName = "UAT-21">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-20134">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-123045">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-123181">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliate scenarioName = "UAT-147486"
+            organizationName  = "Bill-Publisher-UAT" />
+
+        <affiliates scenarioName = "UAT-151109">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-151948">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-155284">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-160925">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-192553">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-197061">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+
+        <affiliates scenarioName = "UAT-212286">
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT" />
+            <affiliate
+                organizationName  = "Bill-Publisher-UAT (two)" />
+        </affiliates>
+    </affiliates>
+
+<!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "UAT-21"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-20134"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-123045"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-123181"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-147486"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-151948"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-155284"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-160925"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-192553"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-197061"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "UAT-212286"
+            title = "Simple ad" />
+
+    </graphicalElements>
+
+<!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-21">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-21">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "30"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "30" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-20134">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-20134">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "30"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "30" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-123045">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-123045">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "30"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "30" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-123181">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-123181">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "30"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "30" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-147486">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-147486">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "10"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "10" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-151948">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-151948">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "10"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "10" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-155284">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-155284">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "10"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "10" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-160925">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-160925">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "10"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "10" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-192553">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-192553">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "20" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-197061">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-197061">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "20" />
+        </segmentTariffs>
+
+        <!--<segmentTariffs scenarioName = "UAT-212286">-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "SALE_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "10"-->
+                <!--fee         = "100"-->
+                <!--numberOf    = "20"-->
+                <!--orderValue  = "200" />-->
+            <!--<segmentTariff-->
+                <!--eventTypeId = "I_LEAD_EVENT_ID"-->
+                <!--monthOffset = "-5"-->
+                <!--tdFee       = "30"-->
+                <!--fee         = "400"-->
+                <!--numberOf    = "20" />-->
+        <!--</segmentTariffs>-->
+
+        <segmentTariffs scenarioName = "UAT-212286">
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-10"
+                fee         = "-100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                monthOffset = "-5"
+                tdFee       = "-30"
+                fee         = "-400"
+                numberOf    = "20" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+</scenarioData>

@@ -1,0 +1,30 @@
+<scenarioData>
+
+    <clients>
+        <client scenarioName = "Simple"
+            vatNumber = "7777777"
+        />
+        <client scenarioName = "Double"
+            vatNumber = "8888888"
+        />
+    </clients>
+
+    <banks>
+        <bank scenarioName = "Simple"
+            accountOwner = "Pelle tönt"
+        />
+        <bank scenarioName = "Double"
+            accountOwner = "Arne test"
+        />
+    </banks>
+
+    <messageForClients>
+        <messageForClient scenarioName = "Simple"
+            messageText = "test text 1"
+        />
+        <messageForClient scenarioName = "Double"
+            messageText = "test text 2"
+        />
+    </messageForClients>
+
+</scenarioData>

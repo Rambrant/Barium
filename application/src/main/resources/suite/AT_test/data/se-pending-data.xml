@@ -1,0 +1,183 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <program scenarioName = "traffic"
+            name                      = "Bill-traffic Sweden"
+            programType               = "TD_AFFILIATE"
+            invoiceTdOrgId            = "51"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "sv"
+            currencyId                = "SEK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-traffic advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "SE"
+            currentPrepaymentStatusId = "NORMAL" />
+
+        <program scenarioName = "invoice"
+            name                      = "Bill-invoice Sweden"
+            programType               = "TD_INTERNAL"
+            invoiceTdOrgId            = "51"
+            responsibleId             = "1476247"
+            directLink                = "true"
+            active                    = "true"
+            defaultLanguageId         = "sv"
+            currencyId                = "SEK"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            organizationName          = "Bill-invoice advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "SE"
+            currentPrepaymentStatusId = "NORMAL" />
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliate scenarioName = "traffic"
+            organizationName  = "Bill-traffic" />
+
+        <affiliate scenarioName = "invoice"
+            organizationName  = "Bill-invoice" />
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "traffic"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "invoice"
+            title = "Simple ad" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "traffic">
+            <segmentTariff
+                eventTypeId   = "SALE_EVENT_ID"
+                tdFee         = "20"
+                fee           = "100"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20"
+                orderValue    = "200" />
+            <segmentTariff
+                eventRef      = "custom lead"
+                tdFee         = "30"
+                fee           = "300"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20" />
+            <segmentTariff
+                eventRef      = "custom sale"
+                tdFee         = "30"
+                fee           = "400"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20"
+                orderValue    = "260" />
+            <segmentTariff
+                eventTypeId   = "I_LEAD_EVENT_ID"
+                tdFee         = "30"
+                fee           = "400"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20" />
+            <segmentTariff
+                eventTypeId   = "EVENT_TYPE_NETWORK_FEE"
+                fee           = "22" />
+            <segmentTariff
+                eventTypeId   = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee         = "18"
+                fee           = "0.0"
+                numberOf      = "20"
+                dataVolume    = "10.50" />
+            <segmentTariff
+                eventTypeId   = "EVENT_TYPE_BONUS_AMOUNT"
+                fee           = "20" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "invoice">
+            <segmentTariff
+                eventTypeId   = "SALE_EVENT_ID"
+                tdFee         = "20"
+                fee           = "100"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20"
+                orderValue    = "200" />
+            <segmentTariff
+                eventRef      = "custom lead"
+                tdFee         = "30"
+                fee           = "300"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20" />
+            <segmentTariff
+                eventRef      = "custom sale"
+                tdFee         = "30"
+                fee           = "400"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20"
+                orderValue    = "260" />
+            <segmentTariff
+                eventTypeId   = "I_LEAD_EVENT_ID"
+                tdFee         = "30"
+                fee           = "400"
+                pending       = "Y"
+                pendingOffset = "32"
+                numberOf      = "20" />
+            <segmentTariff
+                eventTypeId   = "EVENT_TYPE_NETWORK_FEE"
+                fee           = "22" />
+            <segmentTariff
+                eventTypeId   = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee         = "18"
+                fee           = "0.0"
+                numberOf      = "20"
+                dataVolume    = "10.50" />
+            <segmentTariff
+                eventTypeId   = "EVENT_TYPE_BONUS_AMOUNT"
+                fee           = "20" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+    <customEvents>
+
+        <customEvents scenarioName = "traffic">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+        <customEvents scenarioName = "invoice">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData>

@@ -1,0 +1,115 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+
+    <!--
+            responsibleId          = "171829"    // Test Test
+            responsibleId          = "1677387"   // Björn Ekryd
+            responsibleId          = "1602735"   // Per Malmgren
+            responsibleId          = "1667462"   // Thomas Rambrant
+            responsibleId          = "1519965"   // Erik Gullbring
+            responsibleId          = "1476247"   // Cecilia Akne
+    -->
+
+    <globalEntry>
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Create" included = "true">
+            <operations>
+                <operation name = "addCrmCreateInvoiceRuleAgent" parameter = "CrmInvoiceRuleCreate"/>
+                <operation name = "addPanInvoiceControlAgent"    parameter = "PanInvoiceControlNone"/>
+                <operation name = "addPanOrderLineAgent"         parameter = "PanOrderLineNone"/>
+                <operation name = "addPanServiceFailAgent"       parameter = "PanServiceFailNone"/>
+                <operation name = "startEmulation"               parameter = "emulation" />
+                <operation name = "validateResult"               parameter = "validation"/>
+            </operations>
+        </scenario>
+
+        <!--<scenario name = "Some" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "addPanInvoiceControlAgent" parameter = "PanInvoiceControlNone"/>-->
+                <!--<operation name = "addPanOrderLineAgent"      parameter = "PanOrderLineNone"/>-->
+                <!--<operation name = "addPanServiceFailAgent"    parameter = "PanServiceFailNone"/>-->
+                <!--<operation name = "startEmulation"            parameter = "emulation" />-->
+                <!--<operation name = "validateResult"            parameter = "validation"/>-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "Syntax" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "addPanInvoiceControlAgent" parameter = "PanInvoiceControlNone"/>-->
+                <!--<operation name = "addPanOrderLineAgent"      parameter = "PanOrderLineSyntax"/>-->
+                <!--<operation name = "addPanServiceFailAgent"    parameter = "PanServiceFailNone"/>-->
+                <!--<operation name = "startEmulation"            parameter = "emulation" />-->
+                <!--<operation name = "validateResult"            parameter = "validation"/>-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "Illegal" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "addPanInvoiceControlAgent" parameter = "PanInvoiceControlNone"/>-->
+                <!--<operation name = "addPanOrderLineAgent"      parameter = "PanOrderLineIllegal"/>-->
+                <!--<operation name = "addPanServiceFailAgent"    parameter = "PanServiceFailNone"/>-->
+                <!--<operation name = "startEmulation"            parameter = "emulation" />-->
+                <!--<operation name = "validateResult"            parameter = "validation"/>-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "full" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "addPanInvoiceControlAgent" parameter = "PanInvoiceControlNone"/>-->
+                <!--<operation name = "addPanOrderLineAgent"      parameter = "PanOrderLineNone"/>-->
+                <!--<operation name = "addPanServiceFailAgent"    parameter = "PanServiceFailNone"/>-->
+                <!--<operation name = "startEmulation"            parameter = "emulation" />-->
+                <!--<operation name = "validateResult"            parameter = "validation"/>-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+    </scenarios>
+
+    <parameters>
+
+        <parameter name = "CrmInvoiceRuleCreate" type = "Producer"
+            intervalType = "UNIFORM"
+            interval     = "1"
+            timeLimit    = "1" />
+
+        <parameter name = "PanInvoiceControlNone" type = "Control"
+            startDelay  = "20"
+            periodicity = "120" />
+
+        <parameter name = "PanOrderLineNone" type = "Producer"
+            intervalType = "UNIFORM"
+            interval     = "5" />
+
+        <parameter name = "PanOrderLineSyntax" type = "Producer"
+           intervalType      = "UNIFORM"
+           interval          = "5"
+           errorIntervalType = "UNIFORM"
+           eventType         = "SYNTAX"
+           errorInterval     = "3" />
+
+        <parameter name = "PanOrderLineIllegal" type = "Producer"
+           intervalType      = "UNIFORM"
+           interval          = "5"
+           errorIntervalType = "UNIFORM"
+           eventType         = "ILLEGAL"
+           errorInterval     = "3" />
+
+        <parameter name = "PanServiceFailNone" type = "Consumer" />
+
+        <parameter name = "emulation" type = "Execution"
+            executionTime = "30"
+            coolDownTime  = "30" />
+
+        <parameter name = "validation" type = "Validation"
+            depth = "DEEP" />
+
+    </parameters>
+
+</normalInvoiceScenarios>

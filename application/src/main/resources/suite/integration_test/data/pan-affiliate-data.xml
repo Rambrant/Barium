@@ -1,0 +1,120 @@
+<scenarioData>
+
+    <programs>
+
+        <program scenarioName = "Invoicing different type of events"
+            id = "233891"
+        />
+
+        <!--<program scenarioName = "Invoicing different type of events"-->
+            <!--name                      = "Type of events"-->
+            <!--directLink                = "true"-->
+            <!--active                    = "true"-->
+            <!--encodeUrl                 = "Y"-->
+            <!--prepayment                = "N"-->
+            <!--sendProgramEmail          = "N"-->
+            <!--invoiceFormatCampaign     = "N"-->
+            <!--programType               = "TD_AFFILIATE"-->
+            <!--organizationName          = "Type of events"-->
+            <!--campaignInvoicing         = "N"-->
+            <!--currentPrepaymentStatusId = "NORMAL"-->
+        <!--/>-->
+
+    </programs>
+
+    <affiliates>
+
+        <!--<affiliates scenarioName = "Invoicing different type of events">-->
+
+            <!--<affiliate-->
+                <!--organizationName  = "Billing integration publisher one"-->
+                <!--affiliateStatusId = "ACTIVE"-->
+                <!--siteName          = "Billing integration site"-->
+                <!--siteDescription   = "Billing integration description"-->
+            <!--/>-->
+
+            <!--<affiliate-->
+                <!--organizationName  = "Billing integration publisher two"-->
+                <!--affiliateStatusId = "ACTIVE"-->
+                <!--siteName          = "Billing integration site"-->
+                <!--siteDescription   = "Billing integration description"-->
+            <!--/>-->
+
+        <!--</affiliates>-->
+
+        <affiliate scenarioName = "Invoicing different type of events"
+            organizationName  = "Billing integration publisher two"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+    </affiliates>
+
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Invoicing different type of events"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+    </graphicalElements>
+
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "Invoicing different type of events">
+
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20"
+            />
+
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30"
+            />
+
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200"
+            />
+
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35"
+            />
+
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20"
+            />
+
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+</scenarioData>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <affiliate
+            url               = "http://www.test.se"
+            countryId         = "CH"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "de" />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Simple_1" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <!--<operation name = "processOrderLinesJobs" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "Simple_2" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <!--<operation name = "processOrderLinesJobs" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "Simple_3" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <operation name = "processOrderLinesJobs" />
+            </operations>
+        </scenario>
+
+    </scenarios>
+</normalInvoiceScenarios>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "AT-68163" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "addOrderLinesJobForProgram"/>
+                <operation name = "processOrderLinesJobs" />
+            </operations>
+        </scenario>
+
+        <scenario name = "AT-101057" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "generateInvoice" />
+                <operation name = "verifyInvoice" />
+            </operations>
+        </scenario>
+
+    </scenarios>
+</normalInvoiceScenarios>

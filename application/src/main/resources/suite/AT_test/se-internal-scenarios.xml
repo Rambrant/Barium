@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <affiliate
+            url               = "http://www.test.se"
+            countryId         = "SE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "sv" />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Simple" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <!--<operation name = "generateInvoice"  failure = "ORA-20114"/>-->
+                <!--<operation name = "verifyInvoiceDoNotExist" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" failure = "ORA-20103"/>-->
+                <!--<operation name = "processOrderLinesJobs" />-->
+                <!--<operation name = "emulateMule" />-->
+                <!--<operation name = "verifyOrderLinesDoNotExist" />-->
+            </operations>
+        </scenario>
+
+    </scenarios>
+</normalInvoiceScenarios>

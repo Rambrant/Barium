@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <affiliate
+            url               = "http://www.test.se"
+            countryId         = "DE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "de" />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Simple" included = "true">
+            <operations>
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "generateInvoice" />-->
+                <!--<operation name = "verifyInvoiceDoNotExist" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+                <operation name = "processOrderLinesJobs" />
+                <!--<operation name = "emulateMule" />-->
+                <!--<operation name = "verifyOrderLinesExists" />-->
+            </operations>
+        </scenario>
+
+        <!--<scenario name = "Prepayment" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "generateInvoice" />-->
+                <!--<operation name = "verifyInvoiceDoNotExist" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+                <!--<operation name = "processOrderLinesJobs" />-->
+                <!--<operation name = "emulateMule" />-->
+                <!--<operation name = "verifyOrderLinesExists" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "PrepaymentNegBalance" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "generateInvoice" />-->
+                <!--<operation name = "verifyInvoiceDoNotExist" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+                <!--<operation name = "processOrderLinesJobs" />-->
+                <!--<operation name = "emulateMule" />-->
+                <!--<operation name = "verifyOrderLinesExists" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "NoInvoice" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "generateInvoice" />-->
+                <!--<operation name = "verifyInvoiceDoNotExist" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+                <!--<operation name = "processOrderLinesJobs" />-->
+                <!--&lt;!&ndash;<operation name = "emulateMule" />&ndash;&gt;-->
+                <!--<operation name = "verifyOrderLinesExists" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+    </scenarios>
+</normalInvoiceScenarios>

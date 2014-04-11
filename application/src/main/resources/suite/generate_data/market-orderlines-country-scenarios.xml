@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalInvoiceScenarios>
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+        <invoice invoiceType = "NORMAL" />
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "TD_AFFILIATE" included = "true">
+            <operations>
+                <operation name = "generateTransactions" />
+            </operations>
+        </scenario>
+
+        <!--<scenario name = "TD_INTERNAL" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "CAMPAIGN_OLD" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "TD_INTEGRAL" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "TD_TALK" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <!--<scenario name = "CAMPAIGN_NEW" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "generateOrderLines" />-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+    </scenarios>
+</normalInvoiceScenarios>

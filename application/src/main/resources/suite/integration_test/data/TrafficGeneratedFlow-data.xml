@@ -1,0 +1,38 @@
+<scenarioData>
+
+    <programs>
+        <program scenarioName = "OrderLine"
+             id = "21"
+         />
+    </programs>
+
+    <affiliates>
+        <affiliate scenarioName = "OrderLine"
+            organizationName  = "Bokstugan"
+            countryId         = "SE"
+        />
+    </affiliates>
+
+    <graphicalElements>
+        <graphicalElement scenarioName = "OrderLine"
+            title = "OrderLine ad" />
+    </graphicalElements>
+
+    <segmentTariffs>
+        <segmentTariff scenarioName = "OrderLine"
+            eventTypeId = "IMPRESSION_EVENT_ID"
+            tdFee       = "20"
+            fee         = "300"
+            type        = "DEBIT"
+            numberOf    = "20"
+        />
+    </segmentTariffs>
+
+    <agreements>
+        <agreement scenarioName = "OrderLine"
+            sourceSystemAgreementId = "1-21"
+            productType             = "1"
+        />
+    </agreements>
+
+</scenarioData>

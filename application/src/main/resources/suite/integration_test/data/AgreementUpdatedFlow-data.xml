@@ -1,0 +1,34 @@
+<scenarioData>
+
+<agreements>
+    <!--    String      clientId                -->
+    <!--    Currency    currencyCode            -->
+    <!--    String      description             -->
+    <!--    String      documentLink            -->
+    <!--    Guid        invoicingRuleId         -->
+    <!--    Market      marketId                -->
+    <!--    ProductType productType             -->
+    <!--    String      sourceSystemAgreementId -->
+    <!--    Timestamp   validFrom               -->
+    <!--    Timestamp   validTo                 -->
+
+    <agreement scenarioName = "Description"
+        description = "MAX 56789012345678901234567890123456789012345678901234567890"
+    />
+
+    <agreement scenarioName = "DescriptionForeign"
+        description = "Ryska Фёдор Достое́вский"
+    />
+
+    <agreement scenarioName = "DocumentLink"
+        documentLink = "HTTP:\\890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890/23456.PDF"
+    />
+
+    <agreement scenarioName = "Dates"
+        validFrom = "1901-01-01T00:00:00.000+01:00"
+        validTo   = "2154-12-31T00:00:00.000+01:00"
+    />
+
+</agreements>
+
+</scenarioData>

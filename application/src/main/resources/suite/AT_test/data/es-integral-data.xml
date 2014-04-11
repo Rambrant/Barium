@@ -1,0 +1,43 @@
+<scenarioData>
+
+<!-- ********************************************************************************************************** -->
+    <programs>
+
+        <program scenarioName = "Simple"
+            id = "201932" />
+
+    </programs>
+
+    <!-- ********************************************************************************************************** -->
+    <affiliates>
+
+        <affiliate scenarioName = "Simple"
+            organizationName  = "Bill-Publisher (one)" />
+
+    </affiliates>
+
+    <!-- ********************************************************************************************************** -->
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Simple"
+            title = "Simple ad" />
+
+    </graphicalElements>
+
+    <!-- ********************************************************************************************************** -->
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "Simple">
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_COMPENSATION_AMOUNT"
+                monthOffset = "-1"
+                fee         = "19" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                monthOffset = "-1"
+                fee         = "20" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+</scenarioData>

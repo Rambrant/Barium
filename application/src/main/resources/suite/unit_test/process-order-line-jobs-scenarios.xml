@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+
+    <!--
+            responsibleId          = "171829"    // Test Test
+            responsibleId          = "1677387"   // Björn Ekryd
+            responsibleId          = "1602735"   // Per Malmgren
+            responsibleId          = "1667462"   // Thomas Rambrant
+            responsibleId          = "1519965"   // Erik Gullbring
+            responsibleId          = "1476247"   // Cecilia Akne
+    -->
+
+    <globalEntry>
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "orderLinesJobs" included = "true">
+            <operations>
+                <operation name = "processOrderLinesJobs" />
+            </operations>
+        </scenario>
+
+    </scenarios>
+
+</normalInvoiceScenarios>

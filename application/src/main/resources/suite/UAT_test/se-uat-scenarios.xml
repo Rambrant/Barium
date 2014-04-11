@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <affiliate
+            url               = "http://www.test.se"
+            countryId         = "SE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "sv" />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "UAT-62958" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-211439" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-230193" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-230677" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-21" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-45" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-703" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-20134" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-22891" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-54328" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-63016" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-78234" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-79216" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-123045" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-123181" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-147486" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-151109" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-151948" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-155284" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-160925" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-192553" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-197061" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <!--<scenario name = "UAT-211938" included = "true">-->
+            <!--<operations>-->
+                <!--<operation name = "generateTransactionsInOnline" />-->
+                <!--&lt;!&ndash;<operation name = "waitForImportJob" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<operation name = "addOrderLinesJobForProgram" />&ndash;&gt;-->
+            <!--</operations>-->
+        <!--</scenario>-->
+
+        <scenario name = "UAT-212286" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-213291" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-221707" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-223281" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-224484" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-227457" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-227766" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-227909" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-19198" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-228531" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-73703" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "generateInvoice" />-->
+                <!--<operation name = "verifyInvoice" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-23365" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+            </operations>
+        </scenario>
+
+        <scenario name = "UAT-222696" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <!--<operation name = "waitForImportJob" />-->
+                <!--<operation name = "addOrderLinesJobForProgram" />-->
+                <!--<operation name = "processOrderLinesJobs" />-->
+            </operations>
+        </scenario>
+
+    </scenarios>
+</normalInvoiceScenarios>

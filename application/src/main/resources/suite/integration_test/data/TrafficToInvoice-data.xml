@@ -1,0 +1,218 @@
+<scenarioData>
+
+    <programs>
+
+        <program scenarioName = "Simple"
+            name                      = "Simple program"
+            programType               = "TD_AFFILIATE"
+            organizationName          = "Simple Test"
+            campaignInvoicing         = "N"
+            programCountryId          = "SE"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "No Invoice"
+            name                      = "No invoice program"
+            prepayment                = "Y"
+            programType               = "TD_AFFILIATE"
+            organizationName          = "Billing integration advertiser"
+            campaignInvoicing         = "N"
+            accountBalance            = "2000"
+            programCountryId          = "SE"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+        <program scenarioName = "Prepayment"
+            name                      = "Billing prepayment program"
+            prepayment                = "Y"
+            programType               = "CAMPAIGN_OLD"
+            organizationName          = "Billing prepayment advertiser"
+            campaignInvoicing         = "Y"
+            accountBalance            = "265000"
+            programCountryId          = "SE"
+            currentPrepaymentStatusId = "CAMPAIGN_INVOICING"
+            prepaymentNegativeBalance = "Y"
+        />
+
+        <program scenarioName = "Private Network"
+             name                      = "Private Network program"
+             programType               = "TD_AFFILIATE"
+             organizationName          = "Private Network Test"
+             campaignInvoicing         = "N"
+             programCountryId          = "SE"
+             currentPrepaymentStatusId = "NORMAL"
+             resellerOrgName           = "Private Network Test"
+        />
+
+
+        <program scenarioName = "TransactionsOnline"
+            name                      = "Online program"
+            programType               = "TD_AFFILIATE"
+            organizationName          = "Online integration advertiser"
+            campaignInvoicing         = "N"
+            programCountryId          = "SE"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+    </programs>
+
+    <invoices>
+
+        <invoice scenarioName = "No Invoice"
+            invoiceType = "PREPAYMENT_VERIFICATION"
+        />
+
+        <invoice scenarioName = "Prepayment"
+            invoiceType = "CAMPAIGN_INVOICING_VERIFICATION"
+            totalAmount = "6006.0"
+        />
+
+    </invoices>
+
+    <affiliates>
+
+        <affiliate scenarioName = "Simple"
+            organizationName  = "Simple"
+        />
+
+        <affiliate scenarioName = "No Invoice"
+            organizationName  = "No invoice publisher"
+        />
+
+        <affiliate scenarioName = "Prepayment"
+            organizationName  = "Billing prepayment publisher"
+        />
+
+        <affiliate scenarioName = "Private Network"
+            organizationName  = "Private Network Test"
+        />
+
+        <affiliate scenarioName = "TransactionsOnline"
+            organizationName  = "Online publisher"
+        />
+
+    </affiliates>
+
+    <graphicalElements>
+        <graphicalElement scenarioName = "Simple"
+            title = "Simple ad" />
+
+        <graphicalElement scenarioName = "No Invoice"
+            title = "No invoice ad" />
+
+        <graphicalElement scenarioName = "Prepayment"
+            title = "Prepayment ad" />
+
+        <graphicalElement scenarioName = "Private Network"
+            title = "Private Network ad" />
+
+        <graphicalElement scenarioName = "TransactionsOnline"
+            title = "Tracking ad" />
+
+    </graphicalElements>
+
+    <segmentTariffs>
+
+        <segmentTariff scenarioName = "Simple"
+            eventTypeId = "IMPRESSION_EVENT_ID"
+            tdFee       = "20"
+            fee         = "300"
+            type        = "DEBIT"
+            numberOf    = "20"
+        />
+
+        <segmentTariff scenarioName = "No Invoice"
+            eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+            tdFee       = "18"
+            fee         = "0.0"
+            numberOf    = "18"
+            dataVolume  = "10.33"
+        />
+
+        <segmentTariff scenarioName = "Private Network"
+            eventTypeId = "IMPRESSION_EVENT_ID"
+            tdFee       = "20"
+            fee         = "300"
+            type        = "DEBIT"
+            numberOf    = "20"
+        />
+
+        <segmentTariffs scenarioName = "Prepayment">
+            <segmentTariff
+                eventTypeId     = "IMPRESSION_EVENT_ID"
+                tdFee           = "1000"
+                fee             = "5000"
+                numberOf        = "10000" />
+            <segmentTariff
+                eventTypeId     = "SALE_EVENT_ID"
+                pending         = "Y"
+                pendingOffset   = "32"
+                tdFee           = "20"
+                fee             = "100"
+                numberOf        = "20"
+                orderValue      = "200" />
+        </segmentTariffs>
+
+        <segmentTariffs scenarioName = "TransactionsOnline">
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20" />
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30" />
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200" />
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35" />
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22" />
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20" />
+            <segmentTariff
+				tdFee       = "30"
+				fee         = "370"
+				numberOf    = "35"
+				eventRef    = "custom lead" />
+            <segmentTariff
+				tdFee       = "25"
+				fee         = "350"
+				numberOf    = "25"
+				orderValue  = "260"
+				eventRef    ="custom sale" />
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+    <customEvents>
+
+        <customEvents scenarioName = "TransactionsOnline">
+            <customEvent
+                 eventTypeId = "SALE_EVENT_ID"
+                 eventName   = "custom sale"/>
+            <customEvent
+                 eventTypeId = "LEAD_EVENT_ID"
+                 eventName   = "custom lead"/>
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData>

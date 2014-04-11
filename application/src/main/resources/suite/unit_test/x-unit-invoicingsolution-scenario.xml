@@ -1,0 +1,95 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+
+    <!--
+            responsibleId          = "171829"    // Test Test
+            responsibleId          = "1677387"   // Björn Ekryd
+            responsibleId          = "1602735"   // Per Malmgren
+            responsibleId          = "1667462"   // Thomas Rambrant
+            responsibleId          = "1519965"   // Erik Gullbring
+            responsibleId          = "1476247"   // Cecilia Akne
+    -->
+
+    <globalEntry>
+
+        <program
+            responsibleId     = "1602735"
+            defaultLanguageId = "en"
+            currencyId        = "GBP"
+            programCountryId  = "GB"
+            invoiceTdOrgId    = "1484464"
+        />
+
+    </globalEntry>
+
+
+    <scenarios>
+
+        <scenario name = "Simple" included = "true">
+            <operations>
+                <operation name = "addCrmCreateInvoiceRuleAgent"     parameter = "CrmInvoiceRuleCreate"/>
+                <operation name = "addCrmUpdateInvoiceRuleAgent"     parameter = "CrmInvoiceRuleUpdate"/>
+                <operation name = "addCrmUpdateClientAgent"          parameter = "CrmClientUpdate"/>
+                <operation name = "addCrmUpdateAgreementAgent"       parameter = "CrmAgreementUpdate"/>
+                <operation name = "addAxServiceFailAgent"            parameter = "AxServiceFailNone"/>
+                <operation name = "addCrmServiceFailAgent"           parameter = "CrmServiceFailNone"/>
+                <operation name = "startEmulation"                   parameter = "emulation" />
+                <operation name = "validateResult"                   parameter = "validation"/>
+            </operations>
+        </scenario>
+
+    </scenarios>
+
+    <parameters>
+
+        <parameter name = "CrmInvoiceRuleCreate" type = "Producer"
+            intervalType      = "UNIFORM"
+            interval          = "3"
+            timeLimit         = "4" />
+
+        <parameter name = "AxInvoiceRuleCreate" type = "Consumer" />
+
+        <parameter name = "CrmInvoiceRuleUpdate" type = "Producer"
+            intervalType      = "UNIFORM"
+            interval          = "4"
+            eventType         = "ORDER"
+            errorIntervalType = "UNIFORM"
+            errorInterval     = "2"/>
+
+        <parameter name = "AxInvoiceRuleUpdate" type = "Consumer" />
+
+        <parameter name = "CrmClientUpdate" type = "Producer"
+            intervalType      = "UNIFORM"
+            interval          = "6"
+            eventType         = "ILLEGAL"
+            errorIntervalType = "UNIFORM"
+            errorInterval     = "3"/>
+
+
+        <parameter name = "CrmAgreementUpdate" type = "Producer"
+            intervalType      = "UNIFORM"
+            interval          = "5"
+            eventType         = "SEQUENCE"
+            errorIntervalType = "UNIFORM"
+            errorInterval     = "2"/>
+
+        <parameter name = "AxServiceFailNone" type = "Consumer"
+            failDelay         = "0"
+            failDuration      = "15"
+            failSuspend       = "100" />
+
+        <parameter name = "CrmServiceFailNone" type = "Consumer" />
+
+        <parameter name = "emulation" type = "Execution"
+            executionTime = "35"
+            coolDownTime  = "90" />
+
+        <parameter name = "validation" type = "Validation"
+            depth = "DEEP" />
+
+    </parameters>
+
+</normalInvoiceScenarios>

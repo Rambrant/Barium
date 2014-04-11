@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<normalInvoiceScenarios>
+
+    <!-- This is a global entry that will be applied for all scenarios in this suite -->
+    <globalEntry>
+
+        <invoice invoiceType = "NORMAL" />
+
+        <affiliate
+            url               = "http://www.test.se"
+            countryId         = "SE"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+            languageId        = "sv" />
+
+        <graphicalElement
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE" />
+
+    </globalEntry>
+
+    <scenarios>
+
+        <scenario name = "Simple" included = "false">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "generateInvoice" />
+                <operation name = "verifyInvoiceDoNotExist" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <operation name = "processOrderLinesJobs" />
+                <!--<operation name = "emulateMule" />-->
+                <operation name = "verifyOrderLinesExists" />
+            </operations>
+        </scenario>
+
+        <scenario name = "PVN" included = "true">
+            <operations>
+                <operation name = "generateTransactionsInOnline" />
+                <operation name = "waitForImportJob" />
+                <operation name = "addOrderLinesJobForProgram" />
+                <operation name = "processOrderLinesJobs" />
+            </operations>
+        </scenario>
+    </scenarios>
+</normalInvoiceScenarios>

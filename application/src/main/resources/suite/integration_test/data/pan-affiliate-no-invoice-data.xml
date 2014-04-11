@@ -1,0 +1,146 @@
+<scenarioData>
+
+    <programs>
+
+        <program scenarioName = "Invoicing different type of events"
+            name                      = "Type of events"
+            directLink                = "true"
+            active                    = "true"
+            encodeUrl                 = "Y"
+            prepayment                = "N"
+            sendProgramEmail          = "N"
+            invoiceFormatCampaign     = "N"
+            programType               = "TD_AFFILIATE"
+            organizationName          = "Type of events advertiser"
+            campaignInvoicing         = "N"
+            currentPrepaymentStatusId = "NORMAL"
+        />
+
+    </programs>
+
+    <affiliates>
+
+        <affiliate scenarioName = "Invoicing different type of events"
+            organizationName  = "Billing integration publisher"
+            affiliateStatusId = "ACTIVE"
+            siteName          = "Billing integration site"
+            siteDescription   = "Billing integration description"
+        />
+
+    </affiliates>
+
+    <graphicalElements>
+
+        <graphicalElement scenarioName = "Invoicing different type of events"
+            title                  = "Billing integration ad"
+            graphicalElementTypeId = "TEXT_LINKS"
+            geVersion              = "0"
+            adStatusId             = "ACTIVE"
+        />
+
+    </graphicalElements>
+
+    <segmentTariffs>
+
+        <segmentTariffs scenarioName = "Invoicing different type of events">
+
+            <segmentTariff
+                eventTypeId = "IMPRESSION_EVENT_ID"
+                tdFee       = "20"
+                fee         = "300"
+                numberOf    = "20"
+            />
+
+            <segmentTariff
+                eventRef    = "custom lead"
+                tdFee       = "30"
+                fee         = "370"
+                numberOf    = "35"
+            />
+
+            <segmentTariff
+                eventTypeId = "CLICK_EVENT_ID"
+                tdFee       = "25"
+                fee         = "335"
+                numberOf    = "30"
+            />
+
+            <segmentTariff
+                eventTypeId = "SALE_EVENT_ID"
+                tdFee       = "20"
+                fee         = "100"
+                numberOf    = "20"
+                orderValue  = "200"
+            />
+
+            <segmentTariff
+                eventTypeId = "I_SALE_EVENT_ID"
+                tdFee       = "8"
+                fee         = "32"
+                numberOf    = "20"
+                orderValue  = "200"
+            />
+
+            <segmentTariff
+                eventRef    = "custom sale"
+                tdFee       = "25"
+                fee         = "350"
+                numberOf    = "25"
+                orderValue  = "260"
+            />
+
+            <segmentTariff
+                eventTypeId = "LEAD_EVENT_ID"
+                tdFee       = "6"
+                fee         = "19"
+                numberOf    = "15"
+            />
+
+            <segmentTariff
+                eventTypeId = "I_LEAD_EVENT_ID"
+                tdFee       = "15"
+                fee         = "250"
+                numberOf    = "15"
+            />
+
+            <segmentTariff
+                eventTypeId = "FILE_HOSTING_TRANSACTION_EVENT_ID"
+                tdFee       = "18"
+                fee         = "0.0"
+                numberOf    = "18"
+                dataVolume  = "10.33"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_NETWORK_FEE"
+                fee         = "-22"
+            />
+
+            <segmentTariff
+                eventTypeId = "EVENT_TYPE_BONUS_AMOUNT"
+                fee         = "20"
+            />
+
+        </segmentTariffs>
+
+    </segmentTariffs>
+
+    <customEvents>
+
+        <customEvents scenarioName = "Invoicing different type of events">
+
+            <customEvent
+                eventTypeId = "SALE_EVENT_ID"
+                eventName   = "custom sale"
+            />
+
+            <customEvent
+                eventTypeId = "LEAD_EVENT_ID"
+                eventName   = "custom lead"
+            />
+
+        </customEvents>
+
+    </customEvents>
+
+</scenarioData>
